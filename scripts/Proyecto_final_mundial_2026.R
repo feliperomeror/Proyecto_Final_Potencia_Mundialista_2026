@@ -171,3 +171,49 @@ barplot(
   
 )
 
+# =========================================================
+# EXPORTAR RESULTADOS HTML
+# =========================================================
+
+stargazer(
+  
+  modelo_logit,
+  
+  type = "html",
+  
+  title = "Modelo Logístico Potencia Mundialista 2026",
+  
+  dep.var.labels = "Potencia Mundial",
+  
+  out = "Resultados_Modelo_Logistico.html"
+  
+)
+
+# =========================================================
+# EXPORTAR PROBABILIDADES
+# =========================================================
+
+write.csv(
+  
+  ranking_probabilidades,
+  
+  "Ranking_Probabilidades_Mundial_2026.csv",
+  
+  row.names = FALSE
+  
+)
+
+# =========================================================
+# EXPORTAR BASE CON PREDICCIONES
+# =========================================================
+
+write.csv(
+  
+  data,
+  
+  "Base_Mundial_2026_Predicciones.csv",
+  
+  row.names = FALSE
+  
+)
+
