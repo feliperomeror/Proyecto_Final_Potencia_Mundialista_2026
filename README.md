@@ -3,8 +3,8 @@
 Este repositorio contiene el desarrollo y la resolución del caso “Modelo Predictivo Potencia Mundialista 2026”, realizado en el marco del curso Analítica de los Negocios.
 Datos y archivos de réplica para el análisis del caso por:
 
-**Andres Felipe Romero Rodriguez**
-**Andres Felipe Martinez Murcia**
+- **Andres Felipe Romero Rodriguez**
+- **Andres Felipe Martinez Murcia**
 
 --------------------------------------------------  
 
